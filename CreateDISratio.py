@@ -2,8 +2,8 @@
 #repeat = input(prompt)
 
 xlo = 0.0
-xhi = 1.0
-xbins = 40
+xhi = 1.25
+xbins = 50
 xstep = (xhi-xlo)/xbins
 numbers = [round(xlo + (x + 1/2)* xstep,5) for x in range(0, xbins)]
 # Carbon (89303)
